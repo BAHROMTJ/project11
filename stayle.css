@@ -303,7 +303,7 @@
 }
 @media screen and (max-width: 900px) {
   .contener2 .item {
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 }
@@ -380,8 +380,70 @@
   margin-bottom: 25px;
 }
 .contener3 .form {
-  height: 435px;
   width: 485px;
   margin: 100px 0px;
   margin-right: 15px;
+  margin-left: 15px;
+}
+.contener3 .form input[type=text] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 85px;
+}
+.contener3 .form input[type=email] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+.contener3 .form textarea {
+  width: 100%;
+}
+.contener3 .form input[type=submit] {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #0a8024;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+.contener4 {
+  width: 100%;
+  height: 129px;
+  background-color: #000;
+  position: relative;
+  display: flex;
+  color: #c0bbbb;
+  align-items: center;
+  justify-content: end;
+}
+.contener4 p {
+  margin-right: 5%;
+}
+.contener4 img {
+  position: absolute;
+  top: 37px;
+  left: 8%;
+}
+.contener4 ul {
+  position: absolute;
+  left: 20%;
+  top: 53px;
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+}
+.contener4 ul li {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 40px;
+}
+@media screen and (max-width: 900px) {
+  .contener4 ul li {
+    display: none;
+  }
 }/*# sourceMappingURL=stayle.css.map */
