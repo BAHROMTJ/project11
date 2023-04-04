@@ -1,0 +1,54 @@
+.contener
+{
+    filter: grayscale(75%);
+margin-top: 64px;
+margin-left: 50px;
+margin-right: 50px;
+display:flex ;
+
+}
+.w3-opacity
+{
+    opacity: 0.60;
+    font-size: 14px;
+}
+.w3
+{
+text-align: center;
+font-size: 30px;
+}
+
+.img
+{
+    width: 100%;
+}
+.con1
+{
+margin-left: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+ width: 24.99999%;
+}
+h3
+{
+margin-top:10px;
+margin-bottom:10px;
+font-weight: 400;
+
+}
+.tex
+{
+    padding: 0.16px 16px;
+}
+.buton
+{
+    text-align: center;
+    border: none;
+    padding:8px 16px ;
+    background-color: #f1f1f1;
+width: 100%;
+}
+p
+{
+    opacity: 0.8;
+    font-family: "Raleway", sans-serif;
+}
